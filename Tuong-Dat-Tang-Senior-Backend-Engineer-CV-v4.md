@@ -1,8 +1,8 @@
 # TUONG DAT TANG
 
-**Senior Backend Engineer**  
-Ho Chi Minh City, Vietnam  
-Email: bluediamond1702@gmail.com | Phone: 0778847998  
+**Senior Backend Engineer**
+Ho Chi Minh City, Vietnam
+Email: bluediamond1702@gmail.com | Phone: (+84)778847998
 GitHub: https://github.com/DiamondDat
 
 ## PROFESSIONAL SUMMARY
@@ -11,9 +11,9 @@ Senior Backend Engineer with 9+ years of experience in web application and backe
 
 ## TECHNICAL SKILLS
 
-**Languages:** Ruby, JavaScript, SQL, HTML, CSS
+**Languages:** Ruby, Golang, JavaScript, SQL, HTML, CSS
 
-**Backend:** Ruby on Rails, RESTful APIs, Microservices Architecture, System Design
+**Backend:** Ruby on Rails, Go kit, Echo, RESTful APIs, Microservices Architecture, System Design
 
 **Databases & Data:** PostgreSQL, Amazon Redshift, SQL
 
@@ -80,8 +80,9 @@ Senior Backend Engineer with 9+ years of experience in web application and backe
 
 ## SELECTED PROJECTS
 
-### Hubble APIs
-**January 2021 – Present**  
+### Hubble Microservices
+**January 2021 – Present**
+**Customer:** Hubble.Build
 **Role:** Senior Backend Engineer
 
 - Design, develop, and maintain backend APIs supporting Hubble’s construction management platform.
@@ -89,10 +90,11 @@ Senior Backend Engineer with 9+ years of experience in web application and backe
 - Collaborate with product and engineering teams to analyse requirements and translate them into production-ready API solutions.
 - Investigate and resolve API-related production issues, including application logic and data-related problems.
 
-**Technologies:** Ruby on Rails, RESTful APIs, PostgreSQL, Redis
+**Technologies:** Ruby on Rails, Echo, Go kit, RESTful APIs, PostgreSQL, Redis
 
 ### Hubble Data
-**January 2021 – Present**  
+**January 2021 – Present**
+**Customer:** Hubble.Build
 **Role:** Senior Backend Engineer
 
 **Client Dashboards**
@@ -110,8 +112,8 @@ Senior Backend Engineer with 9+ years of experience in web application and backe
 **Technologies:** SQL, PostgreSQL, Python, AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Redshift
 
 ### Deliveree Webapp
-**February 2019 – December 2020**  
-**Customer:** Deliveree On-Demand Logistics  
+**February 2019 – December 2020**
+**Customer:** Deliveree On-Demand Logistics
 **Role:** Backend Developer
 
 - Contributed to the main web application for Deliveree’s on-demand logistics platform across backend and frontend development.
@@ -121,8 +123,8 @@ Senior Backend Engineer with 9+ years of experience in web application and backe
 **Technologies:** Ruby on Rails, ReactJS, HTML/CSS/JavaScript, Google APIs
 
 ### 1PAC VN Wakuwaku Today
-**September 2018 – December 2018**  
-**Customer:** 1PAC VN  
+**September 2018 – December 2018**
+**Customer:** 1PAC VN
 **Role:** Backend Developer
 
 - Developed APIs and supported backend functionality for an online publication focused on Japanese travel, culture, and knowledge sharing.
@@ -132,8 +134,8 @@ Senior Backend Engineer with 9+ years of experience in web application and backe
 **Technologies:** HTML/CSS/JavaScript, Vue.js, 1PAC Responsive Framework
 
 ### 1PAC VN Punch
-**June 2018 – September 2018**  
-**Customer:** 1PAC VN  
+**June 2018 – September 2018**
+**Customer:** 1PAC VN
 **Role:** Backend Developer
 
 - Implemented APIs and backend functionality for an employee time, attendance, vacation, and working-hours management application.

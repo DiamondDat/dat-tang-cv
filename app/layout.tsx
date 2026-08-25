@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Tuong Dat Tang — Senior Backend Engineer',
+  title: 'Dat Tuong Tang — Senior Backend Engineer',
   description: 'Senior Backend Engineer specializing in Ruby on Rails, distributed systems, APIs, SQL, and data platforms.',
 }
 

@@ -1,7 +1,7 @@
 'use client'
 
 const skillGroups = [
-  ['Backend', 'Ruby on Rails', 'RESTful APIs', 'Microservices', 'System Design'],
+  ['Backend', 'Ruby on Rails', 'Go kit', 'Echo', 'RESTful APIs', 'Microservices', 'System Design'],
   ['Data', 'PostgreSQL', 'Amazon Redshift', 'SQL', 'Redis'],
   ['Infrastructure', 'AWS', 'Docker', 'Sidekiq', 'Unix / Linux', 'Git'],
   ['Workflow', 'RSpec', 'Pub/Sub', 'AI-assisted engineering', 'Technical planning'],
@@ -15,7 +15,7 @@ const experience = [
 
 const projects = [
   { name: 'Hubble Data', type: 'ANALYTICS DATA PIPELINE', description: 'Event-driven data processing from PostgreSQL through Kinesis and Lambda, into S3 and Redshift.', tech: 'Python · AWS Lambda · Kinesis · S3 · Redshift' },
-  { name: 'Hubble APIs', type: 'BACKEND PLATFORM', description: 'Reliable, maintainable APIs powering core workflows of a construction management platform.', tech: 'Ruby on Rails · PostgreSQL · Redis' },
+  { name: 'Hubble Microservices', type: 'BACKEND PLATFORM', description: 'Reliable, maintainable APIs powering core workflows of a construction management platform.', tech: 'Ruby on Rails · PostgreSQL · Redis' },
   { name: 'Deliveree Webapp', type: 'LOGISTICS PRODUCT', description: 'Full-stack product contributions for on-demand logistics, from backend services to customer-facing UI.', tech: 'Rails · ReactJS · Google APIs' },
 ]
 
@@ -37,7 +37,7 @@ export function CvLanding() {
         <div className="rise">
           <p className="eyebrow mb-7">// senior backend engineer · ho chi minh city</p>
           <h1 className="max-w-3xl text-balance text-6xl font-semibold leading-[.94] tracking-[-.07em] sm:text-8xl lg:text-[7.6rem]">Building the<br /><span className="text-accent">systems</span> behind<br />the product.</h1>
-          <p className="mt-9 max-w-xl text-pretty text-lg leading-8 text-muted-foreground">I&apos;m Tuong Dat Tang — a backend engineer with 9+ years of experience turning complex product requirements into reliable, scalable software.</p>
+          <p className="mt-9 max-w-xl text-pretty text-lg leading-8 text-muted-foreground">I&apos;m Dat Tang — a backend engineer with 9+ years of experience turning complex product requirements into reliable, scalable software.</p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a href="#experience" className="bg-primary px-5 py-3 font-mono text-xs uppercase tracking-widest text-primary-foreground transition-transform hover:-translate-y-0.5">View experience ↓</a>
             <a href="https://github.com/DiamondDat" target="_blank" rel="noreferrer" className="border border-border px-5 py-3 font-mono text-xs uppercase tracking-widest text-foreground transition-colors hover:border-accent hover:text-accent">GitHub ↗</a>
@@ -46,7 +46,7 @@ export function CvLanding() {
         <div className="rise-delay flex items-end lg:justify-end">
           <div className="w-full max-w-md border border-border bg-card/80 p-5 font-mono text-xs text-muted-foreground backdrop-blur-sm">
             <div className="mb-8 flex items-center justify-between border-b border-border pb-4"><span className="text-accent">system.profile</span><span>v4.0.0</span></div>
-            <div className="flex flex-col gap-4"><p><span className="text-accent">name</span> = <span className="text-foreground">&quot;Tuong Dat Tang&quot;</span></p><p><span className="text-accent">focus</span> = [<span className="text-foreground">&quot;APIs&quot;, &quot;data&quot;, &quot;distributed systems&quot;</span>]</p><p><span className="text-accent">experience</span> = <span className="text-foreground">9+ years</span></p><p><span className="text-accent">status</span> = <span className="text-accent">&quot;shipping reliable software&quot;</span></p></div>
+            <div className="flex flex-col gap-4"><p><span className="text-accent">name</span> = <span className="text-foreground">&quot;Dat Tang&quot;</span></p><p><span className="text-accent">focus</span> = [<span className="text-foreground">&quot;APIs&quot;, &quot;data&quot;, &quot;distributed systems&quot;</span>]</p><p><span className="text-accent">experience</span> = <span className="text-foreground">9+ years</span></p><p><span className="text-accent">status</span> = <span className="text-accent">&quot;shipping reliable software&quot;</span></p></div>
             <div className="mt-10 flex items-center gap-2 border-t border-border pt-4 text-[10px]"><span className="size-2 bg-accent" /> Available for the right problem</div>
           </div>
         </div>
@@ -60,7 +60,7 @@ export function CvLanding() {
 
       <section className="relative mx-auto max-w-6xl px-6 py-24 lg:px-10 lg:py-32"><div className="mb-14 flex items-end justify-between"><div><p className="eyebrow mb-4">03 / selected systems</p><h2 className="text-4xl font-semibold tracking-[-.05em] sm:text-6xl">Work in<br /><span className="text-accent">production.</span></h2></div><span className="font-mono text-xs text-muted-foreground">03 projects</span></div><div className="grid gap-5 lg:grid-cols-3">{projects.map((project, index) => <article key={project.name} className="flex min-h-72 flex-col justify-between border border-border bg-card p-6 transition-colors hover:border-accent"><div><div className="mb-12 flex items-center justify-between"><span className="font-mono text-xs text-accent">0{index + 1}</span><span className="font-mono text-[10px] tracking-widest text-muted-foreground">↗</span></div><p className="eyebrow text-[10px]">{project.type}</p><h3 className="mt-3 text-2xl font-medium tracking-tight">{project.name}</h3><p className="mt-4 text-sm leading-6 text-muted-foreground">{project.description}</p></div><p className="mt-8 border-t border-border pt-4 font-mono text-[10px] leading-5 text-accent">{project.tech}</p></article>)}</div></section>
 
-      <footer id="contact" className="relative border-t border-border bg-primary px-6 py-20 text-primary-foreground lg:px-10 lg:py-28"><div className="mx-auto max-w-6xl"><p className="eyebrow mb-6 text-primary-foreground/70">// next deployment</p><div className="flex flex-col justify-between gap-12 lg:flex-row lg:items-end"><h2 className="max-w-3xl text-5xl font-semibold leading-[.95] tracking-[-.06em] sm:text-7xl">Have a hard backend<br />problem? <span className="text-accent">Let&apos;s talk.</span></h2><div className="flex flex-col gap-3 font-mono text-xs"><a className="transition-opacity hover:opacity-70" href="mailto:bluediamond1702@gmail.com">bluediamond1702@gmail.com ↗</a><a className="transition-opacity hover:opacity-70" href="tel:0778847998">0778847998 ↗</a><a className="transition-opacity hover:opacity-70" href="https://github.com/DiamondDat" target="_blank" rel="noreferrer">github.com/DiamondDat ↗</a></div></div><div className="mt-24 flex justify-between border-t border-primary-foreground/20 pt-5 font-mono text-[10px] uppercase tracking-widest text-primary-foreground/60"><span>Tuong Dat Tang · CV 2026</span><span>Ho Chi Minh City, VN</span></div></div></footer>
+      <footer id="contact" className="relative border-t border-border bg-primary px-6 py-20 text-primary-foreground lg:px-10 lg:py-28"><div className="mx-auto max-w-6xl"><p className="eyebrow mb-6 text-primary-foreground/70">// next deployment</p><div className="flex flex-col justify-between gap-12 lg:flex-row lg:items-end"><h2 className="max-w-3xl text-5xl font-semibold leading-[.95] tracking-[-.06em] sm:text-7xl">Have a hard backend<br />problem? <span className="text-accent">Let&apos;s talk.</span></h2><div className="flex flex-col gap-3 font-mono text-xs"><a className="transition-opacity hover:opacity-70" href="mailto:bluediamond1702@gmail.com">bluediamond1702@gmail.com ↗</a><a className="transition-opacity hover:opacity-70" href="tel:+84778847998">(+84)778847998 ↗</a><a className="transition-opacity hover:opacity-70" href="https://github.com/DiamondDat" target="_blank" rel="noreferrer">github.com/DiamondDat ↗</a></div></div><div className="mt-24 flex justify-between border-t border-primary-foreground/20 pt-5 font-mono text-[10px] uppercase tracking-widest text-primary-foreground/60"><span>Dat Tang · CV 2026</span><span>Ho Chi Minh City, VN</span></div></div></footer>
     </main>
   )
 }
