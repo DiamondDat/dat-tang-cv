@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --color-background: #07111f;
+  --color-foreground: #f4f7fb;
+  --color-card: #0d1a2c;
+  --color-card-foreground: #f4f7fb;
+  --color-primary: #034694;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #12243a;
+  --color-secondary-foreground: #b7c9de;
+  --color-muted: #12243a;
+  --color-muted-foreground: #8ca3bd;
+  --color-border: #203650;
+  --color-accent: #7eb6ff;
+  --color-accent-foreground: #07111f;
+  --radius: 0.25rem;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #07111f; color: #f4f7fb; font-family: 'Space Grotesk', sans-serif; }
+::selection { background: #7eb6ff; color: #07111f; }
+
+.grid-texture { background-image: linear-gradient(#17304d 1px, transparent 1px), linear-gradient(90deg, #17304d 1px, transparent 1px); background-size: 40px 40px; mask-image: linear-gradient(to bottom, black, transparent 80%); opacity: .32; }
+.eyebrow { color: #7eb6ff; font-family: 'DM Mono', monospace; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise .7s ease both; }
+  .rise-delay { animation: rise .7s .12s ease both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+}
