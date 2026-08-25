@@ -16,7 +16,7 @@ const experience = [
 const projects = [
   { name: 'Hubble Data', type: 'ANALYTICS DATA PIPELINE', description: 'Event-driven data processing from PostgreSQL through Kinesis and Lambda, into S3 and Redshift.', tech: 'Python · AWS Lambda · Kinesis · S3 · Redshift' },
   { name: 'Hubble Microservices', type: 'BACKEND PLATFORM', description: 'Reliable, maintainable APIs powering core workflows of a construction management platform.', tech: 'Ruby on Rails · PostgreSQL · Redis · Sidekiq' },
-  { name: 'Deliveree Webapp', type: 'LOGISTICS PRODUCT', description: 'Full-stack product contributions for on-demand logistics, from backend services to customer-facing UI.', tech: 'Rails · ReactJS · Google APIs · Mapbox APIs' },
+  { name: 'Deliveree Webapp', type: 'LOGISTICS PRODUCT', description: 'Full-stack product contributions for on-demand logistics, from backend services to customer-facing UI.', tech: 'Ruby on Rails · ReactJS · Google APIs · Mapbox APIs' },
 ]
 
 export function CvLanding() {
